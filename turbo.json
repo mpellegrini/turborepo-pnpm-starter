@@ -4,6 +4,11 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["./lib/**", "./dist/**"]
+    },
+    "lint": {
+      "dependsOn": [],
+      "inputs": [],
+      "outputs": []
     }
   }
 }

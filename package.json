@@ -5,6 +5,7 @@
     "preinstall": "npx -y only-allow pnpm",
     "prepare": "husky install",
     "build": "turbo run build",
+    "lint": "turbo run lint",
     "format": "prettier --write '**/*.{ts,tsx,vue,js,md,yaml}'"
   },
   "engines": {
