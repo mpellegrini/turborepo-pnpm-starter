@@ -20,6 +20,15 @@ importers:
       turbo: 1.6.3
       typescript: 4.9.4
 
+  packages/example-pkg:
+    specifiers:
+      '@packages/ts-config': workspace:*
+    devDependencies:
+      '@packages/ts-config': link:../../toolchain/ts-config
+
+  toolchain/ts-config:
+    specifiers: {}
+
 packages:
 
   /@babel/code-frame/7.18.6:
