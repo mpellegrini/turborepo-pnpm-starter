@@ -7,9 +7,11 @@
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "TIMING=1 eslint ./src --ext .ts"
   },
   "devDependencies": {
+    "@packages/eslint-config": "workspace:*",
     "@packages/ts-config": "workspace:*"
   }
 }
