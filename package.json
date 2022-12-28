@@ -4,7 +4,7 @@
   "scripts": {
     "preinstall": "npx -y only-allow pnpm",
     "build": "turbo run build",
-    "format": "prettier --write '**/*.{ts,tsx,js}'"
+    "format": "prettier --write '**/*.{ts,tsx,vue,js,md,yaml}'"
   },
   "engines": {
     "npm": ">=8.0.0",
