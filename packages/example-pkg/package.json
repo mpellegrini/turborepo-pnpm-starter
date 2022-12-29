@@ -8,10 +8,12 @@
   "exports": "./lib/index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "TIMING=1 eslint ./src --ext .ts"
+    "lint": "TIMING=1 eslint ./src --ext .ts",
+    "test": "jest"
   },
   "devDependencies": {
     "@toolchain/eslint-config": "workspace:*",
+    "@toolchain/jest-config": "workspace:*",
     "@toolchain/ts-config": "workspace:*"
   }
 }
