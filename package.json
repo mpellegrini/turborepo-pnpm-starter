@@ -6,6 +6,7 @@
     "prepare": "husky install",
     "build": "turbo run build",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "format": "prettier --write '**/*.{ts,tsx,vue,js,md,yaml}'"
   },
   "engines": {
