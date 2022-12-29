@@ -22,11 +22,11 @@ importers:
 
   packages/example-pkg:
     specifiers:
-      '@packages/eslint-config': workspace:*
-      '@packages/ts-config': workspace:*
+      '@toolchain/eslint-config': workspace:*
+      '@toolchain/ts-config': workspace:*
     devDependencies:
-      '@packages/eslint-config': link:../../toolchain/eslint-config
-      '@packages/ts-config': link:../../toolchain/ts-config
+      '@toolchain/eslint-config': link:../../toolchain/eslint-config
+      '@toolchain/ts-config': link:../../toolchain/ts-config
 
   toolchain/eslint-config:
     specifiers:

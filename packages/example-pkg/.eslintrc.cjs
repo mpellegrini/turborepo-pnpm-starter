@@ -3,5 +3,5 @@ module.exports = {
   parserOptions: {
     tsconfigRootDir: __dirname,
   },
-  extends: ['@packages/eslint-config'],
+  extends: ['@toolchain/eslint-config'],
 }

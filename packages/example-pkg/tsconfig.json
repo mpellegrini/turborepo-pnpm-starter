@@ -1,3 +1,3 @@
 {
-  "extends": "./node_modules/@packages/ts-config/tsconfig-base.json",
+  "extends": "./node_modules/@toolchain/ts-config/tsconfig-base.json",
 }
