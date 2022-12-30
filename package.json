@@ -13,7 +13,7 @@
     "npm": ">=8.0.0",
     "node": ">=16.0.0"
   },
-  "packageManager": "pnpm@7.20.0",
+  "packageManager": "pnpm@7.21.0",
   "lint-staged": {
     "*.{ts,tsx,vue,js,cjs,mjs,md,yaml}": [
       "prettier --write"
