@@ -9,7 +9,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "TIMING=1 eslint ./src --ext .ts",
-    "test": "jest"
+    "test": "jest",
+    "clean": "del .turbo lib .coverage"
   },
   "devDependencies": {
     "@toolchain/eslint-config": "workspace:*",

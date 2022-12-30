@@ -7,6 +7,7 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "clean": "turbo run clean",
     "format": "prettier --write '**/*.{ts,tsx,vue,js,md,yaml}'"
   },
   "engines": {
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
     "@commitlint/config-conventional": "17.3.0",
+    "del-cli": "5.0.0",
     "husky": "8.0.2",
     "lint-staged": "13.1.0",
     "prettier": "2.8.1",
