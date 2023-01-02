@@ -7,9 +7,9 @@
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "lint": "TIMING=1 eslint ./src --ext .ts",
-    "test": "jest",
+    "test": "NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest",
     "clean": "del .turbo lib .coverage"
   },
   "devDependencies": {
