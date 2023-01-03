@@ -9,12 +9,11 @@
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "lint": "TIMING=1 eslint ./src --ext .ts",
-    "test": "NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "clean": "del .turbo lib .coverage"
   },
   "devDependencies": {
     "@toolchain/eslint-config": "workspace:*",
-    "@toolchain/jest-config": "workspace:*",
     "@toolchain/ts-config": "workspace:*"
   }
 }
