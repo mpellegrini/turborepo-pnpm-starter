@@ -67,36 +67,6 @@ const config = {
         '@typescript-eslint/consistent-type-imports': 'error',
       },
     },
-    {
-      files: ['**/*.test.ts'],
-      plugins: ['jest'],
-      env: {
-        'jest/globals': true,
-      },
-      extends: [
-        // https://www.npmjs.com/package/eslint-plugin-jest
-        'plugin:jest/recommended',
-        'plugin:jest/style',
-      ],
-      rules: {
-        'jest/consistent-test-it': ['error', { fn: 'it' }],
-        'jest/prefer-called-with': 'error',
-        'jest/prefer-comparison-matcher': 'error',
-        'jest/prefer-equality-matcher': 'error',
-        'jest/prefer-expect-assertions': 'error',
-        'jest/prefer-expect-resolves': 'error',
-        'jest/prefer-hooks-in-order': 'error',
-        'jest/prefer-hooks-on-top': 'error',
-        'jest/prefer-lowercase-title': 'error',
-        'jest/prefer-snapshot-hint': 'error',
-        'jest/prefer-spy-on': 'error',
-        'jest/prefer-strict-equal': 'error',
-        'jest/prefer-todo': 'error',
-        'jest/require-hook': 'error',
-        'jest/require-to-throw-message': 'error',
-        'jest/require-top-level-describe': 'error',
-      },
-    },
   ],
   plugins: ['import'],
   rules: {
