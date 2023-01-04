@@ -67,6 +67,24 @@ const config = {
         '@typescript-eslint/consistent-type-imports': 'error',
       },
     },
+    {
+      files: ['**/*.test.ts'],
+      plugins: ['vitest'],
+      env: {
+        'vitest-globals/env': true,
+      },
+      extends: ['plugin:vitest-globals/recommended'],
+      rules: {
+        // https://github.com/veritem/eslint-plugin-vitest#list-of-supported-rules
+        // 'vitest/expect-expect': 'error',
+        'vitest/lower-case-title': 'error',
+        'vitest/max-nested-describe': ['error', { max: 3 }],
+        // 'vitest/no-conditional-tests': 'error',
+        'vitest/no-focused-tests': 'error',
+        'vitest/no-identical-title': 'error',
+        'vitest/no-skipped-tests': 'error',
+      },
+    },
   ],
   plugins: ['import'],
   rules: {
