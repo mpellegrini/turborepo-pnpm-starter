@@ -2,8 +2,5 @@
   "extends": "./node_modules/@toolchain/ts-config/tsconfig-base.json",
   "compilerOptions": {
     "types": ["vitest/globals"]
-  },
-  "files": [
-    "vitest.config.ts"
-  ]
+  }
 }
