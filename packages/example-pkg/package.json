@@ -14,6 +14,6 @@
   "devDependencies": {
     "@toolchain/eslint-config": "workspace:*",
     "@toolchain/ts-config": "workspace:*",
-    "@toolchain/vite-config": "workspace:*"
+    "@toolchain/vitest-config": "workspace:*"
   }
 }
