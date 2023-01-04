@@ -1,19 +1,20 @@
 {
-  "name": "@packages/example-pkg",
+  "name": "@toolchain/vite-config",
   "version": "0.0.0",
   "license": "UNLICENSED",
   "private": true,
   "type": "module",
+  "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
+    "build": "tsc",
     "lint": "TIMING=1 eslint ./src --ext .ts",
-    "test": "vitest --run",
     "clean": "del .turbo lib .coverage"
   },
   "devDependencies": {
     "@toolchain/eslint-config": "workspace:*",
     "@toolchain/ts-config": "workspace:*",
-    "@toolchain/vite-config": "workspace:*"
+    "@vitest/coverage-c8": "0.26.3",
+    "vitest": "0.26.3"
   }
 }
