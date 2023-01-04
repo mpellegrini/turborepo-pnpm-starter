@@ -133,6 +133,8 @@ const config = {
     '__snapshots__',
     '!.github',
     '!.vscode',
+    'vite.config.ts',
+    'vitest.config.ts',
   ],
 }
 
