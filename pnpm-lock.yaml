@@ -26,11 +26,11 @@ importers:
     specifiers:
       '@toolchain/eslint-config': workspace:*
       '@toolchain/ts-config': workspace:*
-      '@toolchain/vite-config': workspace:*
+      '@toolchain/vitest-config': workspace:*
     devDependencies:
       '@toolchain/eslint-config': link:../../toolchain/eslint-config
       '@toolchain/ts-config': link:../../toolchain/ts-config
-      '@toolchain/vite-config': link:../../toolchain/vitest-config
+      '@toolchain/vitest-config': link:../../toolchain/vitest-config
 
   toolchain/eslint-config:
     specifiers:

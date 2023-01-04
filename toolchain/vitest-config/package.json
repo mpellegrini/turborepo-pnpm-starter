@@ -1,10 +1,9 @@
 {
-  "name": "@toolchain/vite-config",
+  "name": "@toolchain/vitest-config",
   "version": "0.0.0",
   "license": "UNLICENSED",
   "private": true,
   "type": "module",
-  "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
     "build": "tsc",
